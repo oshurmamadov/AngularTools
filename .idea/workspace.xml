@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd9403e3-4608-4f86-b2aa-4da0e0770084" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material/material dialog/index.html" afterPath="$PROJECT_DIR$/material/material dialog/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material/material dialog/pages/dialog.html" afterPath="$PROJECT_DIR$/material/material dialog/pages/dialog.html" />
     </list>
     <ignored path="AngularTools.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/material/material dialog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="88" selection-start-line="4" selection-start-column="88" selection-end-line="4" selection-end-column="88" />
+            <state relative-caret-position="85">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding>
                 <element signature="n#style#0;n#material-dialog#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -92,8 +90,8 @@
         <option value="$PROJECT_DIR$/material/material dialog/src/controllers/dialog_controller.js" />
         <option value="$PROJECT_DIR$/material/material dialog/src/config/routes.js" />
         <option value="$PROJECT_DIR$/material/material dialog/pages/dialog.html" />
-        <option value="$PROJECT_DIR$/material/material dialog/index.html" />
         <option value="$PROJECT_DIR$/material/material dialog/src/app.js" />
+        <option value="$PROJECT_DIR$/material/material dialog/index.html" />
       </list>
     </option>
   </component>
@@ -337,12 +335,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1470984244524</updated>
-      <workItem from="1470984246130" duration="1607000" />
+      <workItem from="1470984246130" duration="2204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1607000" />
+    <option name="totallyTimeSpent" value="2204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -432,8 +430,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/material/material dialog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="88" selection-start-line="4" selection-start-column="88" selection-end-line="4" selection-end-column="88" />
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding>
             <element signature="n#style#0;n#material-dialog#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
