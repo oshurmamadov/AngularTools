@@ -1,2 +1,2 @@
 # AngularTools
-Simple MDL(material Design Lite) + AngularJS Tools
+Simple MDL(Material Design Lite) + AngularJS Tools
