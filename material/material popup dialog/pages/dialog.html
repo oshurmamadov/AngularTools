@@ -1,4 +1,10 @@
-<div ng-controller="dialog_controller">
-	<material-dialog  data="dialogData" style="visibility: collapse"></material-dialog>
-	<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Material Dialog</button>
+<div id="dialog" class="dialog-overlay">
+	<div class="alert-dialog-card mdl-card mdl-shadow--4dp">
+		<div class="mdl-card__title ddc-title">{{dialogData.title}}</div>
+		<div class="mdl-card__media alert-dialog__media">
+			<div style="margin-top: 20px">
+				{{dialogData.message}}
+			</div>
+		</div>
+	</div>
 </div>

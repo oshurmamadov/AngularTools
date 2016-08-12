@@ -3,4 +3,7 @@
  */
 
 
-angular.module('dialogModule',[]).controller("dialog_controller",function($scope){});
+angular.module('dialogModule',[]).controller("dialog_controller",function($scope){
+
+    $scope.test = "working";
+});
