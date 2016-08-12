@@ -9,6 +9,6 @@ angular.module('initModule')
             scope: {
                 dialogData: '=data'
             },
-            templateUrl: 'pages/templates/dialog.html'
+            templateUrl: 'pages/dialog.html'
         }
     });

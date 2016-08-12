@@ -3,7 +3,14 @@
  */
 
 
-angular.module('dialogModule',[]).controller("dialog_controller",function($scope){
+angular.module('dialogModule',[]).controller("dialog_controller",function($scope,dialog_data_model){
 
-    $scope.test = "working";
+    $scope.dialog = new dialog_data_model();
+    $scope.dialog.title   = "Dialog Title";
+    $scope.dialog.message = "Simple dialog realisation";
+
+    $scope.showDialog = function () {
+        showDialog('#dialog');
+        console.log("azim");
+    };
 });
