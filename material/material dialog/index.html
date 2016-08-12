@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="application">
+<head>
+    <title>Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css"> <!-- MDL -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">   <!-- MDL -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js"></script>
+    <script src="https://code.getmdl.io/1.1.3/material.min.js"></script> <!-- MDL -->
+
+    <script src = "src/app.js"></script>
+    <script src = "src/config/init_module.js"></script>
+    <script src = "src/controllers/dialog_controller.js"></script>
+
+</head>
+
+<body>
+    <div ng-controller="dialog_controller">
+        <material-dialog  data="dialogData" style="visibility: collapse"></material-dialog>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Material Dialog</button>
+    </div>
+</body>
+</html>
