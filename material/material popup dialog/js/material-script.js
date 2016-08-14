@@ -10,3 +10,17 @@ function showDialog(id){
         dialog.css({visibility: 'visible'});
     }, 100);
 }
+
+$(document).on('click','#remove',function () {
+    hideDialog("#dialog");
+});
+
+
+function hideDialog(id) {
+    $(document).unbind("keyup.dialog");
+    var dialog = $(id);
+    dialog.css({opacity: 0});
+    setTimeout(function () {
+        dialog.css({visibility: 'collapse'});
+    }, 400);
+}
