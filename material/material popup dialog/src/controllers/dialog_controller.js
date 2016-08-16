@@ -11,6 +11,5 @@ angular.module('dialogModule',[]).controller("dialog_controller",function($scope
 
     $scope.showDialog = function () {
         showDialog('#dialog');
-        console.log("azim");
     };
 });
