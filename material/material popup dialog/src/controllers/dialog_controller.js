@@ -7,7 +7,7 @@ angular.module('dialogModule',[]).controller("dialog_controller",function($scope
 
     $scope.dialog = new dialog_data_model();
     $scope.dialog.title   = "Dialog Title";
-    $scope.dialog.message = "Fill MDL(Material Design Lite) and AngularJS power";
+    $scope.dialog.message = "Fell MDL(Material Design Lite) and AngularJS power";
 
     $scope.showDialog = function () {
         showDialog('#dialog');
