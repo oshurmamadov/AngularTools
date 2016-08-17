@@ -1,0 +1,20 @@
+<div id="dialog" class="dialog-overlay">
+    <div class="alert-dialog-card mdl-card mdl-shadow--4dp">
+        <div class="mdl-card__title ddc-title">{{dialogData.title}}</div>
+        <div class="mdl-card__media alert-dialog__media">
+            <div style="margin-top: 20px">
+                {{dialogData.message}}
+            </div>
+        </div>
+        <div class="mdl-card__menu min">
+            <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                <i id="remove" class="material-icons">remove</i>
+            </button>
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+            <div class="mdl-layout-spacer"></div>
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Cancel</button>
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" ng-click="dialogData.action()">Go</button>
+        </div>
+    </div>
+</div>
