@@ -11,6 +11,7 @@ angular.module('initModule').factory('dialog_data_model',function () {
     AlertDialogDataModel.prototype = {
         title: '',
         message: '',
+        action: null,
         setData: function (data) {
             angular.extend(this,data);
         }
