@@ -42,3 +42,7 @@
 .min.mdl-card__menu{
     margin-top: -10px;
 }
+
+.container{
+    padding: 1% 3%;
+}
