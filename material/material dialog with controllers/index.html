@@ -23,13 +23,87 @@
 </head>
 
 <body>
-    <div ng-controller="dialog_controller" class="container"
-         style="background-color: #4DB6AC; width: 100%; min-height: 100%; position: absolute; bottom: 0">
-        <div style="display: inline-block">
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" style="background-color: white" ng-click="showDialog()">Material Dialog </button>
+
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header prop-common-back" >
+
+        <div class=" mdl-layout__header mdl-layout__header--waterfall android-header">
+            <div class="mdl-layout__header-row">
+
+                <span class="mdl-layout-title">
+                   Title
+                </span>
+
+                <div class="mdl-layout-spacer"></div>
+
+                <!--<md-progress-circular id="mProgress" class="md-warn md-hue-1" md-diameter="55" style="margin: 0px 15px" md-mode='indeterminate'></md-progress-circular>-->
+
+                <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+                    <li class="mdl-menu__item">
+                        Settings
+                    </li>
+                    <li class="mdl-menu__item mdl-menu__item--full-bleed-divider">
+                        Info
+                    </li>
+                    <li class="mdl-menu__item" ng-click="cleanToken()">
+                        Logout
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mdl-layout__drawer">
+            <div class="nav-menu-head_mobile" >
+                <div class="nav-menu"></div>
+                <img class="center" src="resources/img/bc.jpg" style="width: 90px;height: 90px;border-radius: 50%">
+                <!--<div class="nav-menu-user-name"><b style="color: white">john.mcgregor@cns-inc.com</b></div>-->
+                <div class="nav-menu-user-name">
+                    <div style="margin-bottom: -5px"><b>Alex McGregor</b></div>
+                    <div>senior developer</div>
+                </div>
+                <!--<div class="nav-menu-user-name header-title-text" style="margin-top: 10px"><b>Alex McGregor</b></div>-->
+                <!--<div class="nav-menu-user-name header-title-text" style="margin-top: 50px">senior developer</div>-->
+            </div>
+            <div class="nav-menu-menu-title"> Menu </div>
+
+            <nav class="mdl-navigation" style="margin-top: -15px">
+                <div class="nav-menu-item mdl-js-ripple-effect" onclick="goTo('#/definition/')">
+                    <span class="mdl-ripple"></span>
+                    <img class="nav-menu-item-img" src="resources/img/nav_interface.png">
+                    Interface Definition
+                </div>
+                <div class="nav-menu-item mdl-js-ripple-effect" onclick="goTo('#/runs/')">
+                    <span class="mdl-ripple"></span>
+                    <img class="nav-menu-item-img" src="resources/img/nav_menu_run.png">
+                    Interface Runs
+                </div>
+                <div class="android-drawer-separator"></div>
+                <!--onclick="goTo('#/dev-section/')"id="show-not-cancelable"-->
+                <div  class="nav-menu-item mdl-js-ripple-effect" onclick="goTo('#/dev-section/')" >
+                    <span class="mdl-ripple"></span>
+                    <img class="nav-menu-item-img" src="resources/img/dev_sec_menu.png">
+                    Dev.Section
+                </div>
+            </nav>
+
+            <div class="nav-menu-item mdl-js-ripple-effect nav-menu-logout">
+                <span class="mdl-ripple"></span>
+                <img class="nav-menu-item-img"  src="resources/img/nav_logout.png">
+                Logout
+            </div>
 
         </div>
-        <material-dialog  data="dialog" style="visibility: collapse"></material-dialog>
+
+        <div class="mdl-layout__content">
+            <div ng-controller="dialog_controller" class="container"
+                style="background-color: #4DB6AC; width: 100%; min-height: 100%; position: absolute; bottom: 0">
+                <div style="display: inline-block">
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" style="background-color: white" ng-click="showDialog()">Material Dialog </button>
+                </div>
+                <material-dialog  data="dialog" style="visibility: collapse"></material-dialog>
+            </div>
+        </div>
+
     </div>
 
 </body>
