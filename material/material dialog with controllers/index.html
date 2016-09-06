@@ -36,6 +36,9 @@
 
                 <!--<md-progress-circular id="mProgress" class="md-warn md-hue-1" md-diameter="55" style="margin: 0px 15px" md-mode='indeterminate'></md-progress-circular>-->
 
+                <button class="mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+                    <i class="material-icons">more_vert</i>
+                </button>
                 <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
                     <li class="mdl-menu__item">
                         Settings
@@ -82,10 +85,10 @@
 
         <div class="mdl-layout__content">
             <div ng-controller="dialog_controller" class="container"
-                style="background-color: #4DB6AC; width: 100%; min-height: 100%; position: absolute; bottom: 0">
-                <div style="display: inline-block">
+                style="background-color: #4DB6AC; width: 100%; min-height: 100%; ">
+
                     <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" style="background-color: white" ng-click="showDialog()">Material Dialog </button>
-                </div>
+
                 <material-dialog  data="dialog" style="visibility: collapse"></material-dialog>
             </div>
         </div>
