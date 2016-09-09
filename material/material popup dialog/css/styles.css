@@ -69,3 +69,13 @@
     font-weight: 500;
     font-size: medium;
 }
+
+.nav-menu-item:hover{
+    background-color: #e6e6e6;
+}
+
+.nav-menu-item-img{
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+}
