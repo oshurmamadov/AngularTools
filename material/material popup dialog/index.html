@@ -23,71 +23,69 @@
 </head>
 
 <body>
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header prop-common-back" >
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header prop-common-back" >
 
-    <div class=" mdl-layout__header mdl-layout__header--waterfall android-header">
-        <div class="mdl-layout__header-row">
-            <span class="mdl-layout-title">
-               Title
-            </span>
-            <div class="mdl-layout-spacer"></div>
+        <div class=" mdl-layout__header mdl-layout__header--waterfall android-header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">
+                   Title
+                </span>
+                <div class="mdl-layout-spacer"></div>
 
-            <button class="mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
-                <i class="material-icons">more_vert</i>
-            </button>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
-                <li class="mdl-menu__item">
-                    Settings
-                </li>
-                <li class="mdl-menu__item mdl-menu__item--full-bleed-divider">
-                    Info
-                </li>
-                <li class="mdl-menu__item">
-                    Logout
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="mdl-layout__drawer">
-        <div class="nav-menu-menu-title"> Menu </div>
-
-        <nav class="mdl-navigation" style="margin-top: -15px">
-            <div class="nav-menu-item mdl-js-ripple-effect" >
-                <span class="mdl-ripple"></span>
-                <img class="nav-menu-item-img" src="img/nav_interface.png">
-                Menu item 1
+                <button class="mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+                    <i class="material-icons">more_vert</i>
+                </button>
+                <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+                    <li class="mdl-menu__item">
+                        Settings
+                    </li>
+                    <li class="mdl-menu__item mdl-menu__item--full-bleed-divider">
+                        Info
+                    </li>
+                    <li class="mdl-menu__item">
+                        Logout
+                    </li>
+                </ul>
             </div>
-            <div class="nav-menu-item mdl-js-ripple-effect" >
-                <span class="mdl-ripple"></span>
-                <img class="nav-menu-item-img" src="img/nav_interface.png">
-                Menu item 2
-            </div>
-            <div class="android-drawer-separator"></div>
-            <div  class="nav-menu-item mdl-js-ripple-effect" >
-                <span class="mdl-ripple"></span>
-                <img class="nav-menu-item-img" src="img/nav_interface.png">
-                Menu item 3
-            </div>
-        </nav>
-
-        <div class="nav-menu-item mdl-js-ripple-effect nav-menu-logout">
-            <span class="mdl-ripple"></span>
-            <img class="nav-menu-item-img" src="img/nav_interface.png">
-            Menu item 4
         </div>
 
-    </div>
+        <div class="mdl-layout__drawer">
+            <div class="nav-menu-menu-title"> Menu </div>
 
-    <div class="mdl-layout__content" >
-        <div ng-controller="dialog_controller" class="container">
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" ng-click="showDialog()">Material Dialog </button>
-            <material-dialog  data="dialog" style="visibility: collapse"></material-dialog>
+            <nav class="mdl-navigation" style="margin-top: -15px">
+                <div class="nav-menu-item mdl-js-ripple-effect" >
+                    <span class="mdl-ripple"></span>
+                    <img class="nav-menu-item-img" src="img/nav_interface.png">
+                    Menu item 1
+                </div>
+                <div class="nav-menu-item mdl-js-ripple-effect" >
+                    <span class="mdl-ripple"></span>
+                    <img class="nav-menu-item-img" src="img/nav_interface.png">
+                    Menu item 2
+                </div>
+                <div class="android-drawer-separator"></div>
+                <div  class="nav-menu-item mdl-js-ripple-effect" >
+                    <span class="mdl-ripple"></span>
+                    <img class="nav-menu-item-img" src="img/nav_interface.png">
+                    Menu item 3
+                </div>
+            </nav>
+
+            <div class="nav-menu-item mdl-js-ripple-effect nav-menu-logout">
+                <span class="mdl-ripple"></span>
+                <img class="nav-menu-item-img" src="img/nav_interface.png">
+                Menu item 4
+            </div>
+
         </div>
+
+        <div class="mdl-layout__content">
+            <div ng-controller="dialog_controller" class="container">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" ng-click="showDialog()">Material Dialog </button>
+                <material-dialog  data="dialog" style="visibility: collapse"></material-dialog>
+            </div>
+        </div>
+
     </div>
-
-</div>
-
-
 </body>
 </html>
