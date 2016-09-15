@@ -85,3 +85,7 @@
     width: 25px;
     height: 25px;
 }
+
+.android-header {
+    overflow: visible;
+}
